@@ -66,3 +66,11 @@ let p2 = new ProductProperties("Headphones", 150, 10);
 let p3 = new ProductProperties("Keyboard", 80, 7);
 let pp1 = new PerishableProductProperties("Milk", 2.5, 20, "2025-09-15");
 let pp2 = new PerishableProductProperties("Cheese", 5, 15, "2025-08-30");
+
+// Create store and add products
+let store = new Store();
+store.addProduct(p1);
+store.addProduct(p2);
+store.addProduct(p3);
+store.addProduct(pp1);
+store.addProduct(pp2);

@@ -20,3 +20,8 @@ class ProductProperties {
         });
     }
 }
+
+// Part 2: Adding Inheritance 
+class PerishableProductProperties extends ProductProperties {
+
+}

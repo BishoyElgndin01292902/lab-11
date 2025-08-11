@@ -77,3 +77,6 @@ store.addProduct(pp2);
 
 // Log total inventory value before discount
 console.log(`Total Inventory Value (Before Discount): $${store.getInventoryValue().toFixed(2)}\n`);
+
+// Apply 15% discount to all products
+ProductProperties.applyDiscount(store.inventory, 0.15);

@@ -37,3 +37,12 @@ class PerishableProductProperties extends ProductProperties {
         return `${super.toString()}, Expiration Date: ${this.expirationDate}`;
     }
 }
+
+// Part 4: Store Management 
+//Implement Store class with inventory array
+class Store {
+    constructor() {
+        this.inventory = [];
+    }
+
+}

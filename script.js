@@ -74,3 +74,6 @@ store.addProduct(p2);
 store.addProduct(p3);
 store.addProduct(pp1);
 store.addProduct(pp2);
+
+// Log total inventory value before discount
+console.log(`Total Inventory Value (Before Discount): $${store.getInventoryValue().toFixed(2)}\n`);

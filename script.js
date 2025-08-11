@@ -48,5 +48,9 @@ class Store {
     addProduct(product) {
         this.inventory.push(product);
     }
+    // Add getInventoryValue method to Store
+    getInventoryValue() {
+        return this.inventory.reduce((total, product) => total + product.getTotalValue(), 0);
+    }
 
 }

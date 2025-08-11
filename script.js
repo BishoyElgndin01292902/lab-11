@@ -58,3 +58,11 @@ class Store {
     }
 
 }
+
+//  Part 5: Testing the System 
+// Create sample products
+let p1 = new ProductProperties("Laptop", 1200, 5);
+let p2 = new ProductProperties("Headphones", 150, 10);
+let p3 = new ProductProperties("Keyboard", 80, 7);
+let pp1 = new PerishableProductProperties("Milk", 2.5, 20, "2025-09-15");
+let pp2 = new PerishableProductProperties("Cheese", 5, 15, "2025-08-30");

@@ -32,4 +32,8 @@ class PerishableProductProperties extends ProductProperties {
         super(name, price, quantity);   // Call base class constructor
         this.expirationDate = expirationDate;
     }
+    // Override toString() to include the expiration date along with the base product details
+        toString() {
+        return `${super.toString()}, Expiration Date: ${this.expirationDate}`;
+    }
 }
